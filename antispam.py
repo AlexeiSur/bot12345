@@ -8,10 +8,6 @@ bot = commands.Bot(command_prefix="~")
 @bot.event
 async def on_ready():
     print("ready")
-    while True:
-        await asyncio.sleep(10)
-        with open("any_name.txt","r+") as file:
-            file.truncate(0)
 @bot.event
 async def on_message(message):
     counter = 0
