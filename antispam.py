@@ -25,5 +25,5 @@ async def on_message(message):
             await asyncio.sleep(1)
             await message.guild.unban(message.author)
             print("Упс")
-token = os.environ.get("BOT_TOKEN")
-bot.run(token)
+#token = os.environ.get("BOT_TOKEN")
+bot.run('ODQxMDE0NjY1MjM5OTg2MjI2.YJgl8Q.KyJM3dk8xy8IRvlqS7yZnVflFqM')
